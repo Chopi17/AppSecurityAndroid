@@ -1,5 +1,6 @@
 package com.example.secu_app.API;
 
+import com.example.secu_app.models.Account;
 import com.example.secu_app.models.User;
 
 import retrofit2.Call;
