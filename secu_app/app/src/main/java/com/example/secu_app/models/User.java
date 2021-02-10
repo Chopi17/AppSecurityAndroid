@@ -1,4 +1,4 @@
-package com.example.secu_app.API;
+package com.example.secu_app.models;
 
 public class User {
 
