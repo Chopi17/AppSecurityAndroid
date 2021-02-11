@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 
 public class DatabaseHandler extends SQLiteOpenHelper {
     public static final String ACCOUNT_KEY = "id";
-    public static final String ACCOUNT_NAME = "Nom du compte";
+    public static final String ACCOUNT_NAME = "NomAccount";
     public static final String USER_NAME = "Prénom";
     public static final String USER_LASTNAME = "Nom";
     public static final String BANKACCOUNT = "Account";
