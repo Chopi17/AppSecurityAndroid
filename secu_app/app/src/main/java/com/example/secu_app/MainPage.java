@@ -33,7 +33,7 @@ public class MainPage extends AppCompatActivity {
         erefresh = findViewById(R.id.refresh);
 
         // a remplacé par les données de l'API
-        eFirstName.setText(DatabaseHandler.userName);
+        eFirstName.setText("Pierre");
         eLastName.setText("Pain");
         eIban.setText("300003");
         eAmount.setText("1220");
