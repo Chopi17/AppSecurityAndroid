@@ -9,9 +9,6 @@ import retrofit2.http.Path;
 
 public interface interfaceApi {
 
-    static final String BASE_URL = "https://6007f1a4309f8b0017ee5022.mockapi.io/api/m1/";
-
-
     @GET("config/{id}")
     Call<JsonObject> login(@Path("id") String id);
 
