@@ -1,24 +1,7 @@
 # AppSecurityAndroid
 
-## Fonctionnalités de bases de l'app
-
-Les fonctionnalités que doit à minima avoir l'app
-
-- pouvoir modifier information
-
-- Identification Données biométriques / mot de passe
-- Affichage des données de l'API doivent apparaître dans l'application
-
-
-
-## Gestion des données en locales
-
-Les données sur le téléphones ne doivent pas être directement accessible par tous
-
-- chiffrer dossier qui contiennent les données.
-
-
-
+Vous avez pu constater que notre application ne fonctionne pas malgrès les efforts fournis de notree part.
+Nous allon néanmoins expliquer ce que l'on voulait/ a put faire.
 ## API
 
 Il faut faire un échange avec l'API de façon sécurisé et que toute la partie de l'API n'est pas de grosse faille
@@ -26,9 +9,11 @@ Il faut faire un échange avec l'API de façon sécurisé et que toute la partie
 - Cacher URL de l'api
 - Echange avec une API en TLS
 
+#Enregistrement sécurisé des données
+Nous voulions créer une bdd et cripter les données avec l'enigma APK. 
 
 # Connexion
-Pour la vérification de l'utilisateur nous verifions quand il confirme l'entrée de ses données si son username existe dans la bdd et si le password entrer correspond ave celui-ci.
+Pour la vérification de l'utilisateur nous verifions quand il confirme l'entrée de ses données si son username existe dans la bdd et si le password entrer correspond avec celui-ci.
 Dans le cas contraire ont renvoie l'utilisateurs sur la page de connexion en l'informant qu'il n'as pas saisie le bon username ou le bon password.
 
 #
