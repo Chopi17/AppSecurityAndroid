@@ -1,4 +1,4 @@
-package com.example.secu_app;
+package com.example.v2;
 
 import org.junit.Test;
 

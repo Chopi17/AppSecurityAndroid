@@ -27,14 +27,9 @@ Il faut faire un échange avec l'API de façon sécurisé et que toute la partie
 - Echange avec une API en TLS
 
 
+# Connexion
+Pour la vérification de l'utilisateur nous verifions quand il confirme l'entrée de ses données si son username existe dans la bdd et si le password entrer correspond ave celui-ci.
+Dans le cas contraire ont renvoie l'utilisateurs sur la page de connexion en l'informant qu'il n'as pas saisie le bon username ou le bon password.
 
-## Notes
-
-Faire des classes avec tous ce dont l'on a besoin dans la BDD
-
-
-
-Dans java src -> new package -> .models 
-
-On créer les items de la bdd dans le models
+#
 

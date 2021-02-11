@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".step2">
+
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="123dp"
+        android:layout_height="71dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:id="@+id/FirstName"
+        android:layout_width="158dp"
+        android:layout_height="55dp"
+        android:text="Name"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <TextView
+        android:id="@+id/LastName"
+        android:layout_width="212dp"
+        android:layout_height="53dp"
+        android:text="LastName"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <TextView
+        android:id="@+id/Iban"
+        android:layout_width="381dp"
+        android:layout_height="62dp"
+        android:text="Iban"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <TextView
+        android:id="@+id/Amount"
+        android:layout_width="389dp"
+        android:layout_height="321dp"
+        android:text="Amount"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <TextView
+        android:id="@+id/Currency"
+        android:layout_width="161dp"
+        android:layout_height="74dp"
+        android:text="Currency"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="610dp" />
+
+    <TextView
+        android:id="@+id/AccountName"
+        android:layout_width="204dp"
+        android:layout_height="82dp"
+        android:text="AccountName"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="610dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
