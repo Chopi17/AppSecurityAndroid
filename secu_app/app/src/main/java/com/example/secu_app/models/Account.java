@@ -4,15 +4,15 @@ import java.math.BigDecimal;
 
 public class Account {
 
-    private int id;
+    private String id;
     private String account_name;
-    private BigDecimal amount;
+    private String amount;
     private String iban;
     private String currency;
 
     //CONSTRUCTOR
 
-    public Account(int id, String account_name, BigDecimal amount, String iban, String currency){
+    public Account(String id, String account_name, String amount, String iban, String currency){
         this.id = id;
         this.account_name = account_name;
         this.amount = amount;
@@ -21,11 +21,11 @@ public class Account {
     }
 
     //GETTERS
-    public int getId(){
+    public String getId(){
         return id;
     }
 
-    public BigDecimal getAmount(){
+    public String getAmount(){
         return amount;
     }
 
@@ -43,7 +43,7 @@ public class Account {
 
     //SETTERS
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -51,7 +51,7 @@ public class Account {
         this.account_name = account_name;
     }
 
-    public void setAmount(BigDecimal amount) {
+    public void setAmount(String amount) {
         this.amount = amount;
     }
 
@@ -63,7 +63,6 @@ public class Account {
         this.iban = iban;
     }
 
-    @Override
     public String AccountToString(){
         return "Account{" +
                 "id" + id +

@@ -9,8 +9,11 @@ import retrofit2.http.Path;
 
 public interface interfaceApi {
 
+
     @GET("config/{id}")
-    Call<JsonObject> login(@Path("id") String id);
+    Call<JsonObject> getUser(@Path("id") String id);
+
+
 
     @GET("accounts")
     Call<JsonArray> getAccount();

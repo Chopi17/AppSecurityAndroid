@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
     private EditText ePassword;
     private Button eLogin;
     private TextView eText;
-    private String trueUserName= DatabaseHandler.;
-    private String truePassword = DatabaseHandler.password;
+    private String trueUserName= "Robert";
+    private String truePassword = "123456";
 
     boolean isValid = false;
     private int counter = 3;

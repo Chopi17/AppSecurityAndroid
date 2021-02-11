@@ -11,7 +11,6 @@ public class User implements Serializable {
     private String lastname;
     private List<Account> accounts = new ArrayList<>();
     private String password;
-
     //CONSTRUCTOR
     public User(int id, String name, String lastname, List<Account> accounts, String password) {
         this.id = id;

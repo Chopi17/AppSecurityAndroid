@@ -1,7 +1,8 @@
 package com.example.secu_app.API;
 
-import com.example.secu_app.API.interfaceApi;
+import com.google.gson.JsonObject;
 
+import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
@@ -14,6 +15,8 @@ public class getApi {
             .addConverterFactory(GsonConverterFactory.create())
             .build();
 
+    interfaceApi service = retrofit.create(interfaceApi.class);
+    Call<JsonObject> User = service.getUser("1");
     public static Retrofit getClient() {
         return retrofit;
     }
